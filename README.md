@@ -5,6 +5,10 @@ An independent freeware project.
 
 > **Status: v1.0.0 — PUBLIC BETA** — released for testing. The first stable version
 > follows when all planned features are complete.
+>
+> **This repository hosts the first public beta only.** Newer versions are NOT
+> uploaded here — always get the latest firmware from the official website:
+> **https://diamondradio.web.app**
 
 **GitHub:** https://github.com/khanfar/DiamondRadio
 **Website & web installer:** https://diamondradio.web.app
@@ -41,6 +45,8 @@ to your PC first, then installs and boots the new firmware.
 
 ### Manual way — download the .bin from GitHub
 
+The files here are the **v1.0.0 public beta snapshot** — for any newer version,
+use the [official website](https://diamondradio.web.app) instead.
 Download a firmware file from this repository's
 [Releases](https://github.com/khanfar/DiamondRadio/releases) page (or the files below),
 then on the web installer use **5 · Advanced → Install a custom .bin**:
