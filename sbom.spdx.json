@@ -1,0 +1,125 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "diamond-radio-firmware",
+  "documentNamespace": "https://github.com/khanfar/DiamondRadio/sbom/diamond-radio-1.0.0",
+  "creationInfo": {
+    "created": "2026-10-04T00:00:00Z",
+    "creators": [
+      "Organization: MKhanfar",
+      "Tool: manual-declaration-1.0"
+    ],
+    "comment": "Hand-authored SBOM for the DIAMOND RADIO freeware binary release. The core firmware is closed-source freeware; only third-party components and their licenses are declared here."
+  },
+  "documentDescribes": ["SPDXRef-Package-DiamondRadio"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-DiamondRadio",
+      "name": "DIAMOND RADIO firmware (core application)",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: MKhanfar",
+      "downloadLocation": "https://github.com/khanfar/DiamondRadio/releases",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-Freeware",
+      "licenseDeclared": "LicenseRef-Freeware",
+      "copyrightText": "Copyright (c) 2026 MKhanfar",
+      "comment": "Original, closed-source core: UI, decoders integration, DSP (own radix-2 FFT, Goertzel), map, EiBi handling, serial/PC link. Distributed as unmodified binary only."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ft8lib",
+      "name": "ft8_lib",
+      "supplier": "Person: Karlis Goba (YL3JG)",
+      "downloadLocation": "https://github.com/kgoba/ft8_lib",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2018 Karlis Goba",
+      "comment": "FT8/FT4 encode/decode primitives."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-PU2CLR-SI4735",
+      "name": "PU2CLR SI4735 Arduino Library",
+      "supplier": "Person: Ricardo Lima Caratti (PU2CLR)",
+      "downloadLocation": "https://github.com/pu2clr/SI4735",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2019 Ricardo Lima Caratti",
+      "comment": "Si4735 receiver control library."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-TFTeSPI",
+      "name": "TFT_eSPI",
+      "supplier": "Person: Bodmer",
+      "downloadLocation": "https://github.com/Bodmer/TFT_eSPI",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "Copyright (c) Bodmer",
+      "comment": "Display driver library; permissive BSD-style license, see upstream repo. Used to drive the ILI9341 display."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DSEG7",
+      "name": "DSEG7 Classic Mini font",
+      "supplier": "Person: keshikan",
+      "downloadLocation": "https://github.com/keshikan/DSEG",
+      "filesAnalyzed": false,
+      "licenseConcluded": "OFL-1.1",
+      "licenseDeclared": "OFL-1.1",
+      "copyrightText": "Copyright (c) 2017, keshikan",
+      "comment": "7-segment display font (SIL Open Font License 1.1)."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-NASA-BlueMarble",
+      "name": "NASA Blue Marble imagery",
+      "supplier": "Organization: NASA Earth Observatory",
+      "downloadLocation": "https://visibleearth.nasa.gov/collection/1484/blue-marble",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-NASA-BlueMarble",
+      "licenseDeclared": "LicenseRef-NASA-BlueMarble",
+      "copyrightText": "Imagery courtesy NASA Earth Observatory",
+      "comment": "Downscaled world-map bitmap asset; NASA imagery usage terms apply (attribution given, no endorsement implied)."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-esptool-js",
+      "name": "esptool-js",
+      "supplier": "Organization: Espressif Systems",
+      "downloadLocation": "https://github.com/espressif/esptool-js",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) Espressif Systems",
+      "comment": "Browser-side ESP32 flashing library — part of the WEB INSTALLER, not the on-radio firmware."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-DiamondRadio",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-ft8lib"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-DiamondRadio",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-PU2CLR-SI4735"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-DiamondRadio",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-TFTeSPI"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-DiamondRadio",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-DSEG7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-DiamondRadio",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-NASA-BlueMarble"
+    }
+  ],
+  "externalDocumentRefs": [],
+  "comment": "No GPL/copyleft components are included in this release. Declared licenses: Freeware (core), MIT, OFL-1.1, Apache-2.0 (web installer only), BSD-style (TFT_eSPI), NASA imagery terms."
+}

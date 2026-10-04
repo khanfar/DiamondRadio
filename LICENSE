@@ -1,0 +1,34 @@
+DIAMOND RADIO FIRMWARE — END USER LICENSE (FREEWARE)
+Copyright (c) 2026 MKhanfar. All rights reserved.
+
+1. GRANT OF USE
+   You may download, install, and use the DIAMOND RADIO firmware binary
+   on your own ATS-25 receiver, free of charge, for personal and
+   non-commercial use.
+
+2. REDISTRIBUTION
+   You may share the UNMODIFIED binary file with others, free of charge,
+   provided this license file accompanies it. You may NOT sell the
+   firmware, charge for it, or bundle it into a paid product.
+
+3. NO MODIFICATION
+   You may not modify, decompile, reverse engineer, or create derivative
+   works from the binary, except where such restriction is prohibited
+   by applicable law.
+
+4. SOURCE CODE
+   The source code is the private property of the author and is not
+   published or licensed under this agreement.
+
+5. TRADEMARK / NAME
+   "DIAMOND RADIO" refers to this independent project. This firmware is
+   NOT affiliated with, endorsed by, or connected to any other
+   ATS-25 firmware vendor or project.
+
+6. NO WARRANTY
+   THE FIRMWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE
+   AUTHOR IS NOT LIABLE FOR ANY DAMAGE, DATA LOSS, OR HARDWARE ISSUES
+   ARISING FROM ITS USE. Always keep a full-flash backup of your radio
+   (the installer makes one automatically) so you can restore it.
+
+Third-party components remain under their own licenses — see NOTICE.txt.

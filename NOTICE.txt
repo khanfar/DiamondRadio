@@ -1,0 +1,28 @@
+THIRD-PARTY COMPONENTS AND NOTICES
+
+This firmware incorporates or builds upon the following third-party
+components. Thanks to their authors.
+
+- ft8_lib
+  FT8/FT4 protocol encoder/decoder library by Karlis Goba (YL3JG).
+  License: MIT.
+
+- PU2CLR SI4735 Arduino Library
+  Si4735/Si4732 receiver control library by Ricardo Caratti (PU2CLR).
+  License: MIT.
+
+- TFT_eSPI
+  Graphics library for ESP32/ESP8266 and TFT displays by Bodmer.
+  License: permissive (free to use in commercial and non-commercial
+  products; see the library for details).
+
+- DSEG7 Classic Mini font
+  7-segment style display font by keshikan.
+  License: SIL Open Font License 1.1.
+
+- NASA Blue Marble imagery
+  World map imagery used for the map page is derived from NASA's
+  Blue Marble: Next Generation. Imagery courtesy of NASA
+  Earth Observatory; NASA imagery is not copyrighted.
+
+All other code in this firmware is original work.
