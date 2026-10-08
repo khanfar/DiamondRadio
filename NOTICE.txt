@@ -25,4 +25,11 @@ components. Thanks to their authors.
   Blue Marble: Next Generation. Imagery courtesy of NASA
   Earth Observatory; NASA imagery is not copyrighted.
 
+- EiBi broadcast schedule data (distributed via the companion website)
+  Shortwave broadcast frequency/schedule list by Eike Bierwirth
+  (eibispace.de). The EiBi lists are free to use, copy and distribute,
+  including inside third-party software (see EiBi's README, section A).
+  Our database is converted from the official public EiBi CSV by our
+  own converter.
+
 All other code in this firmware is original work.

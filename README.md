@@ -78,6 +78,7 @@ then on the web installer use **5 · Advanced → Install a custom .bin**:
 
 After installing, use the **EiBi database update** section on the web installer to send
 the shortwave schedule to the radio. Update about twice a year (late March / late October).
+Schedule data: EiBi by Eike Bierwirth (eibispace.de) — free to use with attribution.
 
 ## Community
 

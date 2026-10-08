@@ -91,6 +91,17 @@
       "licenseDeclared": "Apache-2.0",
       "copyrightText": "Copyright (c) Espressif Systems",
       "comment": "Browser-side ESP32 flashing library — part of the WEB INSTALLER, not the on-radio firmware."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EiBi",
+      "name": "EiBi broadcast schedule data",
+      "supplier": "Person: Eike Bierwirth (EiBi, eibispace.de)",
+      "downloadLocation": "http://www.eibispace.de/dx/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-EiBi-FreeUse",
+      "licenseDeclared": "LicenseRef-EiBi-FreeUse",
+      "copyrightText": "EiBi by Eike Bierwirth",
+      "comment": "Shortwave broadcast schedule (frequencies, times, station names). EiBi's own README (section A) allows free use, copying and distribution, including inside third-party software. Converted from the official public EiBi CSV by our own converter; distributed via the companion website, not embedded in the firmware image."
     }
   ],
   "relationships": [
@@ -121,5 +132,5 @@
     }
   ],
   "externalDocumentRefs": [],
-  "comment": "No GPL/copyleft components are included in this release. Declared licenses: Freeware (core), MIT, OFL-1.1, Apache-2.0 (web installer only), BSD-style (TFT_eSPI), NASA imagery terms."
+  "comment": "No GPL/copyleft components are included in this release. Declared licenses: Freeware (core), MIT, OFL-1.1, Apache-2.0 (web installer only), BSD-style (TFT_eSPI), NASA imagery terms, EiBi free-use terms (schedule data, website distribution only)."
 }
