@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "diamond-radio-firmware",
-  "documentNamespace": "https://github.com/khanfar/DiamondRadio/sbom/diamond-radio-1.0.0",
+  "documentNamespace": "https://github.com/khanfar/DiamondRadio/sbom/diamond-radio-1.0.1",
   "creationInfo": {
-    "created": "2026-10-04T00:00:00Z",
+    "created": "2026-10-05T00:00:00Z",
     "creators": [
       "Organization: MKhanfar",
       "Tool: manual-declaration-1.0"
@@ -17,7 +17,7 @@
     {
       "SPDXID": "SPDXRef-Package-DiamondRadio",
       "name": "DIAMOND RADIO firmware (core application)",
-      "versionInfo": "1.0.0",
+      "versionInfo": "1.0.1",
       "supplier": "Organization: MKhanfar",
       "downloadLocation": "https://github.com/khanfar/DiamondRadio/releases",
       "filesAnalyzed": false,

@@ -1,9 +1,11 @@
 # ◆ DIAMOND RADIO — Custom ATS-25 Firmware
 
 Custom firmware for the **ATS-25** receiver (ESP32 + Si4735 + 2.8" ILI9341 touch screen).
+Also community-confirmed on the **ATS-120 Pro** (ILI9341) and the **ATS25 Pro+ AIR**
+(ST7789 — dedicated build, available in the website installer's hardware list).
 An independent freeware project.
 
-> **Status: v1.0.0 — PUBLIC BETA** — released for testing. The first stable version
+> **Status: v1.0.1 — PUBLIC BETA** — released for testing. The first stable version
 > follows when all planned features are complete.
 >
 > **This repository hosts the first public beta only.** Newer versions are NOT
@@ -45,7 +47,7 @@ to your PC first, then installs and boots the new firmware.
 
 ### Manual way — download the .bin from GitHub
 
-The files here are the **v1.0.0 public beta snapshot** — for any newer version,
+The files here are the **v1.0.1 public beta snapshot** — for any newer version,
 use the [official website](https://diamondradio.web.app) instead.
 Download a firmware file from this repository's
 [Releases](https://github.com/khanfar/DiamondRadio/releases) page (or the files below),
