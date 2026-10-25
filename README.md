@@ -101,3 +101,36 @@ Third-party components and credits are listed in [NOTICE.txt](NOTICE.txt)
   every third-party component in the build, with its license. No GPL/copyleft
   components are included.
 - [NOTICE.txt](NOTICE.txt) — full third-party copyright and license texts.
+
+
+DIAMOND RADIO for ATS Mini — third-party notices
+=================================================
+
+This project is original work by Diamond Radio (MKhanfar), MIT License.
+It is not affiliated with the ATS Mini hardware authors, the upstream
+esp32-si4732/ats-mini project, or the GNBD ats-mini-dualboot project.
+
+Components and their licenses
+------------------------------
+
+1. DiamondMiniBoot boot manager, partition tables, website tooling
+   Copyright (c) 2026 Diamond Radio (MKhanfar) — MIT License (see LICENSE).
+
+2. LovyanGFX display library
+   Copyright (c) 2020-2025 lovyan03 — BSD-2-Clause license.
+   https://github.com/lovyan03/LovyanGFX
+
+3. Arduino-ESP32 core (build framework, ESP-IDF components)
+   Copyright (c) Espressif Systems and contributors.
+   Arduino core: LGPL-2.1-or-later. ESP-IDF: Apache-2.0.
+   https://github.com/espressif/arduino-esp32
+
+4. Second-stage bootloader binaries (bootloader-16mb.bin, bootloader-8mb.bin)
+   Built in-house from Espressif ESP-IDF v5.5.5 (Apache License 2.0,
+   Copyright (c) Espressif Systems) with the Diamond Mini manager-first
+   patch (ATS-MINI/bootmanager/idf/apply_recovery_first.py, our own code).
+   https://github.com/espressif/esp-idf
+
+No GPL-licensed code is linked into the Diamond Mini Boot images: the rotary
+encoder is read by an original polling routine written for this project.
+
