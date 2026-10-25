@@ -108,7 +108,7 @@ DIAMOND RADIO for ATS Mini — third-party notices
 
 This project is original work by Diamond Radio (MKhanfar), MIT License.
 It is not affiliated with the ATS Mini hardware authors, the upstream
-esp32-si4732/ats-mini project, or the GNBD ats-mini-dualboot project.
+esp32-si4732/ats-mini project, or any ats-mini-dualboot project.
 
 Components and their licenses
 ------------------------------
